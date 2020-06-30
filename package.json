@@ -1,0 +1,30 @@
+{
+  "name": "mp3-player-server",
+  "version": "1.0.0",
+  "description": "A backend server for my MP3 player.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeliwo/mp3-player-server.git"
+  },
+  "homepage": "https://github.com/nabeliwo/mp3-player-server#readme",
+  "bugs": {
+    "url": "https://github.com/nabeliwo/mp3-player-server/issues"
+  },
+  "author": "nabeliwo",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "develop": "ts-node src/index.ts",
+    "typeorm": "typeorm"
+  },
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
